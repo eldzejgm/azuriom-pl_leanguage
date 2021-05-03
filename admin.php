@@ -443,62 +443,68 @@ Tej roli nie można usunąć.',
     ],
 
     'permissions' => [
-        'create-comments' => 'Comment a post',
-        'delete-other-comments' => 'Delete a post comment from another user',
-        'maintenance-access' => 'Access the website during a maintenance',
-        'admin-access' => 'Access to the admin dashboard',
-        'admin-logs' => 'View and manage site logs',
-        'admin-images' => 'View and manage images',
-        'admin-navbar' => 'View and manage navbar',
-        'admin-pages' => 'View and manage pages',
-        'admin-posts' => 'View and manage posts',
-        'admin-settings' => 'View and manage settings',
-        'admin-users' => 'View and manage users',
-        'admin-themes' => 'View and manage themes',
-        'admin-plugins' => 'View and manage plugins',
+        'create-comments' => '
+Skomentuj post',
+        'delete-other-comments' => 'Usuń komentarz do wpisu od innego użytkownika',
+        'maintenance-access' => 'Wejdź na stronę internetową podczas konserwacji',
+        'admin-access' => '
+Dostęp do panelu administratora',
+        'admin-logs' => 'Wyświetl dziennik witryny i zarządzaj nim',
+        'admin-images' => 'Wyświetlaj obrazy i zarządzaj nimi',
+        'admin-navbar' => 'Wyświetl pasek nawigacyjny i zarządzaj nim',
+        'admin-pages' => 'Wyświetl strony i zarządzaj nimi',
+        'admin-posts' => 'Wyświetl posty i zarządzaj nimi',
+        'admin-settings' => 'Wyświetl ustawienia i zarządzaj nimi
+',
+        'admin-users' => '
+Wyświetl użytkowników i zarządzaj nimi',
+        'admin-themes' => 'Wyświetl motywy i zarządzaj nimi',
+        'admin-plugins' => 'Wyświetl wtyczki i zarządzaj nimi',
     ],
 
     'bans' => [
-        'title' => 'Bans',
+        'title' => 'Bany',
 
         'fields' => [
-            'banned-by' => 'Banned by',
-            'reason' => 'Reason',
+            'banned-by' => 'Zbanowany prez',
+            'reason' => 'Powód',
         ],
 
-        'removed' => 'Removed the :date by :user',
+        'removed' => 'Usunięto :date by :user',
     ],
 
     'posts' => [
-        'title' => 'Posts',
-        'title-edit' => 'Edit post :post',
-        'title-create' => 'Create post',
+        'title' => 'Posty',
+        'title-edit' => 'Edytuj post :post',
+        'title-create' => 'Stwórz post',
 
-        'published-info' => 'This post will not be visible publicly until this date.',
+        'published-info' => '
+Ten post nie będzie widoczny publicznie do tej daty.',
 
         'fields' => [
-            'published-at' => 'Published at',
+            'published-at' => 'Opublikowano',
         ],
 
-        'pin' => 'Pin this post',
+        'pin' => 'Przypnij ten post',
 
         'status' => [
-            'created' => 'The post has been created.',
-            'updated' => 'This post has been modified.',
-            'deleted' => 'This post has been deleted.',
+            'created' => 'Post został utworzony.',
+            'updated' => 'Ten post został zmodyfikowany.',
+            'deleted' => 'Ten post został usunięty.',
         ],
 
         'info' => [
-            'pinned' => 'Pinned',
+            'pinned' => '
+Przypięto',
         ],
     ],
 
     'pages' => [
-        'title' => 'Pages',
-        'title-edit' => 'Edit page #:page',
-        'title-create' => 'Create page',
+        'title' => 'Strony',
+        'title-edit' => 'Edytuj Stronę #:page',
+        'title-create' => 'Stwórz Stronę',
 
-        'enable' => 'Enable the page',
+        'enable' => 'Włącz stronę',
 
         'status' => [
             'created' => 'The page has been created.',
