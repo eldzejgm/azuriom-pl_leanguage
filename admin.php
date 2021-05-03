@@ -315,28 +315,30 @@ Jeśli używasz innego portu AzLink niż domyślny, musisz go skonfigurować za 
             'custom-port' => 'Użyj niestandardowego portu AzLink',
         ],
 
-        'players' => ':count player|:count players',
+        'players' => ':liczba graczy|:count players',
         'offline' => 'Offline',
 
         'status' => [
-            'created' => 'The server has been added.',
-            'updated' => 'The server has been updated.',
-            'deleted' => 'The server has been deleted.',
+            'created' => 'Serwer został dodany.',
+            'updated' => '
+Serwer został zaktualizowany.',
+            'deleted' => 'Serwer został usunięty.',
 
-            'connect-success' => 'The connection to the server has been made successfully!',
-            'connect-error' => 'The connection to the server failed: :error',
+            'connect-success' => 'Połączenie z serwerem zostało nawiązane pomyślnie
+!',
+            'connect-error' => 'Połączenie z serwerem nie powiodło się: :error',
 
-            'not-azlink' => 'This server is not connected via AzLink.',
-            'azlink-connect' => 'The connection to the server has failed, the address and/or port are incorrect, or the port is closed.',
-            'azlink-badresponse' => 'The connection to the server has failed (code :code), the token is invalid or the server is misconfigured. You can redo the link command to fix this.',
+            'not-azlink' => 'Ten serwer nie jest połączony przez AzLink.',
+            'azlink-connect' => 'Połączenie z serwerem nie powiodło się, adres / lub port są nieprawidłowe lub port jest zamknięty.',
+            'azlink-badresponse' => 'Połączenie z serwerem nie powiodło się (code :code), token jest nieprawidłowy lub serwer jest źle skonfigurowany. Możesz powtórzyć polecenie link, aby to naprawić.',
         ],
 
         'type' => [
             'mc-ping' => 'Minecraft Ping',
             'mc-rcon' => 'Minecraft RCON',
             'mc-azlink' => 'AzLink',
-            'source-query' => 'Source Query',
-            'source-rcon' => 'Source RCON',
+            'source-query' => 'Zapytanie źródłowe',
+            'source-rcon' => 'Żródłowy RCON',
             'bedrock-ping' => 'Bedrock Ping',
             'bedrock-rcon' => 'Bedrock RCON',
             'fivem-status' => 'FiveM status',
@@ -347,87 +349,96 @@ Jeśli używasz innego portu AzLink niż domyślny, musisz go skonfigurować za 
     ],
 
     'users' => [
-        'title' => 'Users',
-        'title-edit' => 'Edit user :user',
-        'title-create' => 'Create user',
+        'title' => 'Użytkownicy',
+        'title-edit' => 'Edytuj użytkownika :user',
+        'title-create' => '
+Stwórz użytkownika',
 
         'fields' => [
-            'register-date' => 'Registered at',
-            'last-login' => 'Last login at',
-            'email-verified' => 'Email Address verified',
-            '2fa' => 'Two Factor Authentication',
-            'ip' => 'IP Address',
+            'register-date' => 'Data rejsetracji.',
+            'last-login' => 'Data ostatniego logowania.',
+            'email-verified' => '
+Adres e-mail zweryfikowany',
+            '2fa' => 'Uwierzytelnianie dwuetapowe',
+            'ip' => 'Adres IP',
         ],
 
         'info' => [
             'admin' => 'Admin',
             'banned' => 'Banned',
-            'deleted' => 'Deleted',
+            'deleted' => 'Usunięci',
         ],
 
         'actions' => [
             'ban' => 'Ban',
             'unban' => 'Unban',
-            'delete' => 'Delete',
-            'verify-email' => 'Verify email',
-            'disable-2fa' => 'Disable 2fa',
+            'delete' => 'Usuń',
+            'verify-email' => 'Zweryfikuj adres e-mail',
+            'disable-2fa' => 'Wyłącz 2fa',
         ],
 
-        'alert-deleted' => 'This user is deleted, it can\'t be edited.',
+        'alert-deleted' => 'Ten użytkownik został usunięty i nie można go edytować.',
         'alert-banned' => [
-            'title' => 'This user is currently banned:',
-            'banned-by' => 'Banned by: :author',
-            'reason' => 'Reason: :reason',
-            'date' => 'Date: :date',
+            'title' => '
+Ten użytkownik jest obecnie zablokowany:',
+            'banned-by' => '
+Zbanowany przez: :author',
+            'reason' => 'Powód: :reason',
+            'date' => 'Data: :date',
         ],
 
-        'edit-profile' => 'Edit profile',
+        'edit-profile' => 'Eytuj profil',
 
-        'user-info' => 'User information',
+        'user-info' => 'Informacje o użytkowniku',
 
         'ban-title' => 'Ban :user',
-        'ban-description' => 'Are you sure you want to ban this user?',
+        'ban-description' => 'Czy na pewno chcesz zablokować tego użytkownika?',
 
         'status' => [
-            'created' => 'The user has been created.',
-            'updated' => 'This user has been updated.',
-            'deleted' => 'This user has been deleted.',
+            'created' => 'Użytkownik został utworzony.',
+            'updated' => '
+Ten użytkownik został zaktualizowany.',
+            'deleted' => '
+Ten użytkownik został usunięty.',
 
-            'email-verified' => 'The Email Address has been verified.',
-            '2fa-disabled' => 'The Two Factor Authentication has been disabled.',
+            'email-verified' => 'Adres e-mail został zweryfikowany.',
+            '2fa-disabled' => 'Uwierzytelnianie dwuetapowe zostało wyłączone.',
 
-            'banned' => 'This user is now banned.',
-            'unbanned' => 'This user has been unbanned.',
+            'banned' => 'Ten użytkownik jest teraz zablokowany.',
+            'unbanned' => 'Ten użytkownik został odblokowany.',
         ],
     ],
 
     'roles' => [
-        'title' => 'Roles',
-        'title-edit' => 'Edit role :role',
-        'title-create' => 'Create role',
+        'title' => 'Role',
+        'title-edit' => 'Edytuj rolę :role',
+        'title-create' => 'Stwórz rolę',
 
-        'permissions' => 'Permissions',
+        'permissions' => 'Uprawnienia',
         'perm-admin' => [
             'label' => 'Administrator',
-            'info' => 'When the group is admin it has all the permissions.',
+            'info' => '
+Grupa administrator, ma wszystkie uprawnienia.',
         ],
 
         'info' => [
-            'default' => 'Default',
+            'default' => 'Domyślne',
             'admin' => 'Admin',
         ],
 
         'status' => [
-            'power-updated' => 'The roles have been updated.',
-            'created' => 'The role has been created.',
-            'updated' => 'This role has been updated.',
-            'deleted' => 'This role has been deleted.',
+            'power-updated' => 'Role zostały zaktualizowane.',
+            'created' => 'Rola została utworzona.',
+            'updated' => 'Rola została zaktualizowana.',
+            'deleted' => 'Rola została usunięta.',
 
-            'unauthorized' => 'This role is higher than your own role.',
-            'add-admin' => 'You can\'t add the admin permission to a role.',
-            'remove-admin' => 'You can\'t remove the admin permission of your role.',
-            'permanent-role' => 'This role cannot be deleted.',
-            'own-role' => 'You cannot delete your role.',
+            'unauthorized' => 'Ta rola jest wyższa niż twoja własna rola.',
+            'add-admin' => '
+Nie możesz dodać uprawnień administratora do roli.',
+            'remove-admin' => 'Nie możesz odebrać uprawnień administratora swojej roli.',
+            'permanent-role' => '
+Tej roli nie można usunąć.',
+            'own-role' => 'Nie możesz usunąć swojej roli.',
         ],
     ],
 
