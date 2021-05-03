@@ -5,7 +5,7 @@
 <br>
 <br>
 <h2>Przetłumaczone pliki:</h2>
-<p>admin.php - 55%</p>
+<p>admin.php - 75%</p>
 <p>auth.php - 0%</p>
 <p>errors.php - 0%</p>
 <p>messages.php - 0%</p>
