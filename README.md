@@ -13,3 +13,5 @@
 <p>passwords.php - 0%</p>
 <p>seed.php - 0%</p>
 <p>validation.php - 0%</p>
+
+<p>Tłumaczenia mam zamiar dokończyć do końca tego tygodnia 😀</p>
