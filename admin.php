@@ -4,7 +4,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Admin Language Lines
+    | Admin Language Lines PL BY EldzejGM
     |--------------------------------------------------------------------------
     |
     | The following language lines are used on the admin dashboard
@@ -37,7 +37,7 @@ return [
         ],
 
         'content' => [
-            'heading' => 'Content',
+            'heading' => 'Zawartość',
             'pages' => 'Strony',
             'posts' => 'Posty',
             'images' => 'Zdjęcia',
@@ -507,179 +507,179 @@ Przypięto',
         'enable' => 'Włącz stronę',
 
         'status' => [
-            'created' => 'The page has been created.',
-            'updated' => 'This page has been updated.',
-            'deleted' => 'This page has been deleted.',
+            'created' => 'Strona została utworzona.',
+            'updated' => 'Strona została zaktualizowana.',
+            'deleted' => 'Strona została usunięta.',
         ],
     ],
 
     'images' => [
-        'title' => 'Images',
-        'title-edit' => 'Edit image :image',
-        'title-create' => 'Upload image',
+        'title' => 'Zdjęcia',
+        'title-edit' => 'Edytuj zdjęcie :image',
+        'title-create' => 'Prześlij zdjęcie',
 
         'status' => [
-            'created' => 'The image has been created.',
-            'updated' => 'This image has been updated.',
-            'deleted' => 'This image has been deleted.',
+            'created' => 'Zdjęcie zostało utworzone.',
+            'updated' => 'Zdjęcie zostało zaktualizowane.',
+            'deleted' => 'Zdjęcie zostało usunięte.',
         ],
     ],
 
     'extensions' => [
-        'buy' => 'Buy for :price',
+        'buy' => 'Kup za :price',
     ],
 
     'plugins' => [
-        'title' => 'Plugins',
+        'title' => 'Wtyczki',
 
-        'installed' => 'Installed plugins',
-        'available' => 'Available plugins',
+        'installed' => 'Zainstalowane wtyczki',
+        'available' => 'Dostępne wtyczki',
 
-        'azuriom-requirement' => 'This plugin is not compatible with your Azuriom version.',
-        'game-requirement' => 'This plugin is not compatible with the game :game.',
-        'plugin-requirement' => 'The plugin ":plugin" is missing or its version is not compatible with this plugin.',
+        'azuriom-requirement' => 'Ta wtyczka nie jest kompatybilna z twoją wersją Azuriom.',
+        'game-requirement' => 'Ta wtyczka nie jest kompatybilna z grą :game.',
+        'plugin-requirement' => 'Wtyczka ":plugin" jest niepełna lub jegj wersja nie jest kompatybilna z inna wtyczką.',
 
         'status' => [
-            'reloaded' => 'The plugins have been reloaded.',
-            'enabled' => 'The plugin has been enabled.',
-            'disabled' => 'The plugin has been disabled.',
-            'updated' => 'The plugin has been updated.',
-            'installed' => 'The plugin has been installed.',
-            'deleted' => 'The plugin has been deleted.',
+            'reloaded' => 'Wtyczki zostały ponownie załadowane.',
+            'enabled' => 'Wtyczka została włączona.',
+            'disabled' => 'Wtyczka została wyłączona.',
+            'updated' => 'Wtyczka została zaktualizowana.',
+            'installed' => 'Wtyczka została zainstalowana.',
+            'deleted' => 'Wtyczka została usunięta.',
 
-            'error-delete' => 'The plugin must be disabled before it can be deleted.',
+            'error-delete' => 'Wtyczkę należy wyłączyć, zanim będzie można ją usunąć.',
         ],
     ],
 
     'themes' => [
-        'title' => 'Themes',
+        'title' => 'Motywy',
 
         'current' => [
-            'title' => 'Current theme',
-            'author' => 'Author: :author',
-            'version' => 'Version: :version',
+            'title' => 'Bieżący motyw',
+            'author' => 'Autor: :author',
+            'version' => 'Wersia: :version',
         ],
-        'installed' => 'Installed themes',
-        'available' => 'Available themes',
-        'no-enabled' => 'You don\'t have any themes enabled.',
+        'installed' => 'Zainstalowane motywy',
+        'available' => 'Dostępne motywy',
+        'no-enabled' => 'Nie masz włączonych żadnych motywów.',
 
         'actions' => [
-            'edit-config' => 'Edit config',
-            'disable' => 'Disable theme',
+            'edit-config' => 'Edytuj konfigurację',
+            'disable' => 'Wyłącz motyw',
         ],
 
         'status' => [
-            'reloaded' => 'The themes have been reloaded.',
-            'no-config' => 'This theme doesn\'t have config.',
-            'config-updated' => 'The theme config has been updated.',
-            'invalid' => 'This theme is invalid (the theme folder name must be the theme id).',
-            'updated' => 'The theme has been updated.',
-            'installed' => 'The theme has been installed.',
-            'deleted' => 'The theme has been deleted.',
+            'reloaded' => 'Motywy zostały ponownie załadowane.',
+            'no-config' => 'Ten motyw nie ma konfiguracji.',
+            'config-updated' => 'Konfiguracja motywu została zaktualizowana.',
+            'invalid' => 'Ten motyw jest nieprawidłowy (nazwa folderu motywu musi być identyfikatorem motywu).',
+            'updated' => 'Motyw został zaktualizowany.',
+            'installed' => 'Motyw został zainstalowany.',
+            'deleted' => 'Motyw został usunięty.',
 
-            'error-delete' => 'You can\'t delete the current theme.',
+            'error-delete' => 'Nie możesz usunąć bieżącego motywu.',
         ],
     ],
 
     'update' => [
-        'title' => 'Update',
+        'title' => 'Aktualizacja',
 
-        'subtitle-update' => 'Update available',
-        'subtitle-no-update' => 'No updates available',
+        'subtitle-update' => 'Dostępna jest aktualizacja',
+        'subtitle-no-update' => 'Brak dostępnych aktualizacji',
 
-        'update' => 'The version <code>:last-version</code> of Azuriom is available and you are on version <code>:version</code>.',
-        'download' => 'The latest version of Azuriom is ready for download.',
-        'install' => 'The latest version of Azuriom has been downloaded and is ready to be installed.',
+        'update' => 'Wersja <code>:last-version</code> programu Azuriom jest dostępny i korzystasz z wersji <code>:version</code>.',
+        'download' => 'Najnowsza wersja Azuriom jest gotowa do pobrania.',
+        'install' => 'Najnowsza wersja Azuriom została pobrana i jest gotowa do zainstalowania.',
 
-        'backup-info' => 'Before updating Azuriom, you should make a backup of your site!',
+        'backup-info' => 'Przed aktualizacją Azuriom należy wykonać kopię zapasową witryny!',
 
-        'up-to-date' => 'You are running the latest version of Azuriom: <code>:version</code>.',
+        'up-to-date' => 'Korzystasz z najnowszej wersji Azuriom: <code>:version</code>.',
 
         'status' => [
-            'download-success' => 'The latest version has been downloaded, you can now install it.',
-            'install-success' => 'The update has been installed successfully.',
+            'download-success' => 'Najnowsza wersja została pobrana, możesz ją teraz zainstalować.',
+            'install-success' => 'Aktualizacja została pomyślnie zainstalowana.',
 
-            'up-to-date' => 'You are using the latest version of Azuriom.',
-            'error-fetch' => 'An error occurred while fetching updates: :error',
-            'error-download' => 'An error occurred while downloading: :error',
-            'error-install' => 'An error occurred while installing: :error',
+            'up-to-date' => 'Używasz najnowszej wersji Azuriom.',
+            'error-fetch' => 'Wystąpił błąd podczas pobierania aktualizacji: :error',
+            'error-download' => 'Wystąpił błąd podczas pobierania: :error',
+            'error-install' => 'Wystąpił błąd podczas instalacji: :error',
         ],
 
         'actions' => [
-            'check' => 'Check updates',
-            'install' => 'Install',
-            'download' => 'Download',
+            'check' => 'Sprawdź dostępność aktualizacje',
+            'install' => 'Instaluj',
+            'download' => 'Pobierz',
         ],
     ],
 
     'logs' => [
-        'title' => 'Logs',
+        'title' => 'Logi',
 
         'actions' => [
-            'clear' => 'Clear old logs (15d+)',
+            'clear' => 'Wyczyść stare logi (15d+)',
         ],
 
         'status' => [
-            'cleared' => 'The old logs has been deleted.',
+            'cleared' => 'Stare logi zostały usunięte.',
         ],
 
         'pages' => [
-            'created' => 'Created page #:id',
-            'updated' => 'Updated page #:id',
-            'deleted' => 'Deleted page #:id',
+            'created' => 'Utworzona strona #:id',
+            'updated' => 'Zaktualizowana strona #:id',
+            'deleted' => 'Usunięta strona #:id',
         ],
 
         'posts' => [
-            'created' => 'Created post #:id',
-            'updated' => 'Updated post #:id',
-            'deleted' => 'Deleted post #:id',
+            'created' => 'Utworzono post #:id',
+            'updated' => 'Zaktualizowano post #:id',
+            'deleted' => 'Usunięto post #:id',
         ],
 
         'images' => [
-            'created' => 'Created image #:id',
-            'updated' => 'Updated image #:id',
-            'deleted' => 'Deleted image #:id',
+            'created' => 'Stworzono obraz #:id',
+            'updated' => 'Zaktualizowano obraz #:id',
+            'deleted' => 'Usunięto obraz #:id',
         ],
 
         'roles' => [
-            'created' => 'Created role #:id',
-            'updated' => 'Updated role #:id',
-            'deleted' => 'Deleted role #:id',
+            'created' => 'Utworzono role #:id',
+            'updated' => 'Zaktualizowano role #:id',
+            'deleted' => 'Usunięto role #:id',
         ],
 
         'servers' => [
-            'created' => 'Created server #:id',
-            'updated' => 'Updated server #:id',
-            'deleted' => 'Deleted server #:id',
+            'created' => 'Utworzono serwer #:id',
+            'updated' => 'Zaktualizowano serwer #:id',
+            'deleted' => 'Usunięto serwer #:id',
         ],
 
         'users' => [
-            'updated' => 'Updated user #:id',
-            'deleted' => 'Deleted user #:id',
-            'transfer' => 'Send money :money to user #:id',
+            'updated' => 'Zaktualizowano użytkownika #:id',
+            'deleted' => 'Usunięto użytkownika #:id',
+            'transfer' => 'Wyślij pieniądze :money do użytkownika #:id',
         ],
 
         'settings' => [
-            'updated' => 'Updated settings',
+            'updated' => 'Zaktualizowano ustawienia',
         ],
 
         'updates' => [
-            'installed' => 'Installed Azuriom update',
+            'installed' => 'Zainstalowana aktualizacja Azuriom',
         ],
 
         'plugins' => [
-            'enabled' => 'Enabled plugin',
-            'disabled' => 'Disabled plugin',
+            'enabled' => 'Włączono wtyczkę',
+            'disabled' => 'Wyłączono wtyczkę',
         ],
 
         'themes' => [
-            'changed' => 'Changed theme',
+            'changed' => 'Zmieniono motyw',
         ],
     ],
 
     'errors' => [
-        'back' => 'Back to Dashboard',
-        '404' => 'Page Not Found',
-        'info' => 'It looks like you found a glitch in the matrix...',
+        'back' => 'Powrót do Panelu Sterowania',
+        '404' => 'Strona nie została znaleziona',
+        'info' => 'Wygląda na to, że znalazłeś usterkę w matrycy ...',
     ],
 ];
