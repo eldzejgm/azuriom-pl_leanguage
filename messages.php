@@ -2,7 +2,7 @@
 
 return [
 
-    'lang' => 'English',
+    'lang' => 'Polish',
 
     'copyright' => 'Powered by <a href="https://azuriom.com" target="_blank" rel="noreferrer">Azuriom</a>.',
 
@@ -11,20 +11,20 @@ return [
     'date-compact' => 'm/d/Y \a\t g:i A',
 
     'nav' => [
-        'profile' => 'Profile',
-        'admin' => 'Admin dashboard',
+        'profile' => 'Profil',
+        'admin' => 'Panel Administracyjny',
     ],
 
     'actions' => [
-        'add' => 'Add',
-        'create' => 'Create',
-        'edit' => 'Edit',
-        'update' => 'Update',
-        'delete' => 'Delete',
-        'save' => 'Save',
-        'continue' => 'Continue',
-        'browse' => 'Browse',
-        'choose-file' => 'Choose file',
+        'add' => 'Dodaj
+        'create' => 'Utwórz',
+        'edit' => 'Edytuj',
+        'update' => 'Aktualizuj',
+        'delete' => 'Usuń',
+        'save' => 'Zapisz',
+        'continue' => 'Kontynuuj',
+        'browse' => 'Szukaj',
+        'choose-file' => 'Wybierz Plik',
         'download' => 'Download',
         'upload' => 'Upload',
         'cancel' => 'Cancel',
