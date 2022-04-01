@@ -4,38 +4,38 @@ return [
     'error' => 'Błąd',
     'code' => 'Błąd :code',
     'home' => 'Wróć',
-    'whoops' => 'Upsss!',
+    'whoops' => 'Ups!',
 
     '401' => [
         'title' => 'Nieautoryzowany',
-        'message' => 'You are not authorized to access this page.',
+        'message' => 'Nie masz uprawnień aby uzyskać dostep do tej strony.',
     ],
     '403' => [
-        'title' => 'Forbidden',
-        'message' => 'You are forbidden from accessing this page.',
+        'title' => 'Zastrzeżony',
+        'message' => 'Dostęp do tej strony jest zastrzeżony.',
     ],
     '404' => [
-        'title' => 'Not Found',
-        'message' => 'The page you are looking for could not be found.',
+        'title' => 'Nie znaleziono',
+        'message' => 'Strona której szukasz nie została znaleziona.',
     ],
     '419' => [
-        'title' => 'Page Expired',
-        'message' => 'Your session has expired. Please refresh and try again.',
+        'title' => 'Strona wygasła',
+        'message' => 'Twoja sesja wygasła. Odśwież stronę i spróbuj ponownie.',
     ],
     '429' => [
-        'title' => 'Too Many Requests',
-        'message' => 'You are making too many requests to our servers. Please try again later.',
+        'title' => 'Zbyt dużo żądań',
+        'message' => 'Wysyłasz zbyt wiele żądań do naszych serwerów. Spróbuj ponownie później.',
     ],
     '500' => [
-        'title' => 'Server Error',
-        'message' => 'Whoops, something went wrong on our servers. Please try again later.',
+        'title' => 'Błąd Serwera',
+        'message' => 'Ups, coś poszło nie tak. Spróbuj ponownie później.',
     ],
     '503' => [
-        'title' => 'Service Unavailable',
-        'message' => 'We are doing some maintenance. Please check back soon.',
+        'title' => 'Serwis niedostępny',
+        'message' => 'Przeprowadzamy konserwację. Wróć później.',
     ],
 
     'fallback' => [
-        'message' => 'An error occurred. Please try again.',
+        'message' => 'Wystąpił błąd. Proszę spróbuj ponownie.',
     ],
 ];
