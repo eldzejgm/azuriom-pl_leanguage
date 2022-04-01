@@ -1,13 +1,13 @@
 <?php
 
 return [
-    'error' => 'Error',
-    'code' => 'Error :code',
-    'home' => 'Back to home',
-    'whoops' => 'Whoops!',
+    'error' => 'Błąd',
+    'code' => 'Błąd :code',
+    'home' => 'Wróć',
+    'whoops' => 'Upsss!',
 
     '401' => [
-        'title' => 'Unauthorized',
+        'title' => 'Nieautoryzowany',
         'message' => 'You are not authorized to access this page.',
     ],
     '403' => [
