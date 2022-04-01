@@ -7,11 +7,11 @@
 <h2>Przetłumaczone pliki:</h2>
 <p>admin.php - 100%</p>
 <p>auth.php - 0%</p>
-<p>errors.php - 0%</p>
+<p>errors.php - 100%</p>
 <p>messages.php - 100%</p>
 <p>pagination.php - 0%</p>
-<p>passwords.php - 0%</p>
-<p>seed.php - 0%</p>
+<p>passwords.php - 100%</p>
+<p>seed.php - 100%</p>
 <p>validation.php - 0%</p>
 
 
